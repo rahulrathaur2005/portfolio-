@@ -1,6 +1,7 @@
 import React from "react";
 import avatarImg from "../../assets/avatar.png";
 import TextChange from "../TextChange";
+import TiltWrapper from "../TiltWrapper";
 
 const Home = () => {
   return (
@@ -18,7 +19,12 @@ const Home = () => {
         </button>
       </div>
       <div>
-        <img className="h-auto w-96 -translate-y-14 -translate-x-10" src={avatarImg} alt="" />
+        <TiltWrapper>
+          <img className="h-auto w-96 -translate-y-14 -translate-x-10" src={avatarImg} alt="" />
+        </TiltWrapper>
+          
+       
+        
       </div>
     </div>
   );

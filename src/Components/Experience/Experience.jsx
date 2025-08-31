@@ -5,6 +5,7 @@ import {  FaLaptopCode,FaBrain } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { RiNetflixFill } from "react-icons/ri";
 import { FaAmazon } from "react-icons/fa";
+import TiltWrapper from "../TiltWrapper";
 const Experience = () => {
   return (
     <div id="Experience" className="p-10 md:p-24">
@@ -39,7 +40,10 @@ const Experience = () => {
         </div>
         <div>
           <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
-            <FaLaptopCode color="#4285F4" size={50} />
+            <TiltWrapper>
+              <FaLaptopCode color="#4285F4" size={50} />
+            </TiltWrapper>
+            
             <span className="text-white p-2">
               <h2 className="leading-tight">MERN Stack Developer </h2>
               
@@ -50,7 +54,10 @@ const Experience = () => {
             </span>
           </div>
           <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
-            <FaBrain color="#E50914" size={50} />
+            <TiltWrapper>
+              <FaBrain color="#E50914" size={50} />
+            </TiltWrapper>
+            
             <span className="text-white p-2">
               <h2 className="leading-tight">Virtual Internship – AI & IBM Cloud</h2>
               <p className="text-sm leading-tight font-thin">

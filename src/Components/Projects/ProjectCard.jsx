@@ -1,4 +1,5 @@
 import React from "react";
+import TiltWrapper from "../TiltWrapper";
 const ProjectCard = ({ title, main, bannerImg }) => {
   return (
     <div className="p-3 md:p-6 flex flex-col w-80 bg-[#0c0e19]  shadow-slate-900 rounded-2xl
@@ -9,7 +10,10 @@ const ProjectCard = ({ title, main, bannerImg }) => {
                     hover:border hover:border-[#6366F1]
                     relative group  overflow-hidden 
                     justify-between">
-      <img className="p-4 h-40 w-full overflow-hidden" src={bannerImg} alt="" />
+        <TiltWrapper>
+          <img className="p-4 h-40 w-full overflow-hidden" src={bannerImg} alt="" />
+        </TiltWrapper>
+      
       <h3 className="px-4 text-xl md:text-2xl font-bold leading-normal">
         {title}
       </h3>

@@ -2,6 +2,7 @@ import React from "react";
 import { MdOutlineEmail } from "react-icons/md";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
+import TiltWrapper from "../TiltWrapper";
 
 const Footer = () => {
   return (
@@ -18,11 +19,17 @@ const Footer = () => {
 
       <ul className="text-sm md:text-xl">
         <li className="flex gap-4 items-center">
-          <MdOutlineEmail size={20} />
+          <TiltWrapper>
+            <MdOutlineEmail size={20} />
+          </TiltWrapper>
+          
           <a href="">Email</a>
         </li>
         <li className="flex gap-4 items-center">
-          <CiLinkedin />
+          <TiltWrapper> 
+            <CiLinkedin />
+          </TiltWrapper>
+          
           <a href="">LinkedIn</a>
         </li>
         <li className="flex gap-4 items-center">
