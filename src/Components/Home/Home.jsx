@@ -14,9 +14,12 @@ const Home = () => {
           MERN Stack Developer skilled in building secure, scalable, and efficient web applications.
           Strong focus on clean code, problem-solving, and delivering impactful digital solutions.
         </p>
-        <button className="mt-5 md:md-10 text-white py02 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
-          Contact Me
-        </button>
+        <a href="mailto:rahulrathaur472005@gmail.com">
+            <button className="mt-5 md:md-10 text-white py02 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
+              Contact Me
+            </button>
+        </a>
+        
       </div>
       <div>
         <TiltWrapper>

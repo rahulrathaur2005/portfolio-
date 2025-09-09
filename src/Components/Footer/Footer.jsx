@@ -23,14 +23,14 @@ const Footer = () => {
             <MdOutlineEmail size={20} />
           </TiltWrapper>
           
-          <a href="">Email</a>
+          <a href="mailto:rahulrathaur472005@gmail.com">Email</a>
         </li>
         <li className="flex gap-4 items-center">
           <TiltWrapper> 
             <CiLinkedin />
           </TiltWrapper>
           
-          <a href="">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/rahull-rathaur/">LinkedIn</a>
         </li>
         <li className="flex gap-4 items-center">
           <FaGithub />
